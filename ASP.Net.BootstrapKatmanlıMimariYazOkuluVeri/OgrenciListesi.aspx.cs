@@ -17,6 +17,8 @@ namespace ASP.Net.BootstrapKatmanlıMimariYazOkuluVeri
             List<EntityOgrenci> ogrlist = BLLOgrenci.BllListele();
             Repeater1.DataSource = ogrlist;
             Repeater1.DataBind();
+            // 
+            int yx;
         }
     }
 }
